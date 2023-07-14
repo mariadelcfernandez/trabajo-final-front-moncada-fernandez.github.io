@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="estilo.css">
 
 <link rel="stylesheet" href="{{url_for('.primerTpo', filename='estilo.css')}}">
-{% endblock %}
+
 <title>Amalia Calzados</title> 
 </head>
 
@@ -159,10 +159,6 @@
     
 </footer>
 
-{% block scripts %}
-<script src="{{url_for('.primerTpo', filename='scripts.js')}}"></script>
-{{super()}}
-{% endblock %}
 	<script src="script.js"></script>
 </body>
 </html>
